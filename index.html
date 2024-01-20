@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 <body>
-
 <div id="header">
     <div class="container">
         <nav>
@@ -20,12 +19,52 @@
         </nav>
         <div class="header-text">
             <p>Software Engineer</p>
-            <h1>Hi, I'm Wishnu</h1>
+            <h1>Hi, I'm <span>Wishnu</span></h1>
         </div>
     </div>
 </div>
 
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit aliquet sagittis id consectetur purus ut faucibus pulvinar. Sem viverra aliquet eget sit amet tellus cras adipiscing. Luctus accumsan tortor posuere ac ut. Nibh ipsum consequat nisl vel pretium lectus quam. Vitae nunc sed velit dignissim sodales ut. Velit egestas dui id ornare arcu odio ut. Diam sollicitudin tempor id eu nisl. Vestibulum morbi blandit cursus risus at ultrices mi. Scelerisque viverra mauris in aliquam sem fringilla ut. Condimentum id venenatis a condimentum.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Software Development</span><br />Develop desktop application with C++</li>
+                        <li><span>Machine Learning</span><br />Create ML model to process images</li>
+                        <li><span>Metrology Instrumentation</span><br />X-ray Microscope</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Software Development</span><br />Develop desktop application with C++</li>
+                        <li><span>Machine Learning</span><br />Create ML model to process images</li>
+                        <li><span>Metrology Instrumentation</span><br />X-ray Microscope</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Software Development</span><br />Develop desktop application with C++</li>
+                        <li><span>Machine Learning</span><br />Create ML model to process images</li>
+                        <li><span>Metrology Instrumentation</span><br />X-ray Microscope</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
+<script type="text/javascript" src="script.js"></script>
 
 </body>
 </html>
